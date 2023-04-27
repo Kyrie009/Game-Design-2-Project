@@ -11,9 +11,10 @@ public class Respawn : MonoBehaviour
         //Updates current position
         currentPos = this.transform.position;
         // respawn if condition met
-        if (currentPos.y < 25)
+        if (currentPos.y < 0)
         {
             this.transform.position = respawnPoint.position;
+            Debug.Log("position updated");
         }
     }
 }

@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.0000014, z: 0}
+  m_LocalPosition: {x: 0, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -228,13 +228,13 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100006}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.1994964
-  m_Height: 4.868847
+  m_Radius: 0.72039986
+  m_Height: 3.610859
   m_Direction: 1
-  m_Center: {x: 1.916734e-10, y: 0.97335243, z: -0.011136889}
+  m_Center: {x: -0.016623616, y: 0.34435844, z: -0.21186304}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     StrafeSpeed: 4
     RunMultiplier: 2
     RunKey: 304
-    JumpForce: 150
+    JumpForce: 75
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
@@ -302,7 +302,7 @@ MonoBehaviour:
     groundCheckDistance: 0.1
     stickToGroundHelperDistance: 0.6
     slowDownRate: 20
-    airControl: 0
+    airControl: 1
     shellOffset: 0
 --- !u!114 &2103168386
 MonoBehaviour:
